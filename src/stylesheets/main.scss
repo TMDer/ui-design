@@ -1,3 +1,49 @@
+/* body background */
+$body-bg: #fefefe;
+$grid-gutter-width: 30px;
+$container-large-desktop:((1140px + $grid-gutter-width));
+
+/* navbar, can ref */
+/* http://getbootstrap.com/customize/#navbar */
+$navbar-default-bg: #fff;
+$navbar-bar-color : #e93434;
+$navbar-default-link-color: #64776a;
+$navbar-height: 95px;
+
+/* Typography heading */
+$headings-color: #626a77;
+
+/* breadcrumb */
+$breadcrumb-bg: transparent;
+$breadcrumb-separator: "/";
+$breadcrumb-active-color: #626a77;
+$breadcrumb-padding-horizontal: 0;
+$breadcrumb-color: #626a77;
+
+/* tabs */
+$nav-tabs-border-color: #00ACEE;
+$nav-tabs-link-hover-border-color: #cecece;
+$nav-tabs-active-link-hover-bg: #00ACEE;
+$nav-tabs-active-link-hover-color: #ffffff;
+$nav-tabs-active-link-hover-border-color: #cecece;
+
+
+
+
+/* header notification */
+$badge-bg: #f00;
+
+/* Other */
+/*
+$panel-default-heading-bg: #0f0;
+$panel-primary-heading-bg: #00f;
+$border-radius-base: 0px;
+*/
+
+/* progress_bar */
+$brand-success: #93be36;
+$brand-danger: #cc2825;
+
 @import "bootstrap";
 
 body {
@@ -7,3 +53,15 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+.navbar {
+  border-bottom: 1px solid #888;
+}
+// nav.navbar-inverse {
+//   background-color: transparent;
+//   .navbar-nav li > a {
+//     &:hover {
+//       background: #333;
+//     }
+//   }
+  
+// }
